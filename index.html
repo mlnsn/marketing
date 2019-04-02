@@ -20,7 +20,8 @@
                 <i class="fas fa-phone"></i>
                 +48 605 413 609
             </div>
-            <div class="contact-btn ml-2"><a class="btn btn-danger" href="#">Kontakt</a></div>
+            <div class="contact-btn d-flex justify-content-center my-4"><a class="btn btn-danger" href="#">Kontakt
+                </a></div>
         </div>
     </div>
     <div class="container header">
@@ -30,20 +31,49 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end " id="navbarNav">
-                <ul class="navbar-nav ">
-                    <li class="nav-item active">
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="navbar-nav active ">
+                    <li class="nav-item ">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ochrona Wizerunku</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ochrona Wizerunku
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Audyt Wizerunku</a>
+                            <a class="dropdown-item" href="#">Usuwanie opinii</a>
+                            <a class="dropdown-item" href="#">Wizerunek w Google</a>
+                            <a class="dropdown-item" href="#">Monitoring opinii</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Budowanie Wizerunku</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Budowanie Wizerunku
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Wizerunek Firmy</a>
+                            <a class="dropdown-item" href="#">Wizerunek Marki</a>
+                            <a class="dropdown-item" href="#">Wizerunek Osoby</a>
+                            <a class="dropdown-item" href="#">Marketing Szeptany</a>
+                            <a class="dropdown-item" href="#">Buzz Marketing</a>
+                            <a class="dropdown-item" href="#">WoMM</a>
+                            <a class="dropdown-item" href="#">Marketing Szeptany Facebook</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Doradztwo Marketingowe</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Doradztwo Marketingowe
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Outsourcing Marketingowy</a>
+                            <a class="dropdown-item" href="#">iAudyt</a>
+                        </div>
                     </li>
+
                 </ul>
             </div>
         </nav>
@@ -53,9 +83,37 @@
 <section id="about">
     <div class="container-fluid">
         <div class="owl-carousel owl-theme">
-            <div class="item"><img src="img/slider1.jpg" height="550" width="1920"/></div>
-            <div class="item"><img src="img/slider2.jpg" height="550" width="1900"/></div>
-            <div class="item"><img src="img/slider3.jpg" height="550" width="1920"/></div>
+            <div class="item">
+                <div class="slider-text"><img src="img/logo2.png" height="50" width="300" id="logo2"/>
+                    <br>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i><h4>Ochrona wizerunku</h4></li>
+                        <li><i class="fas fa-check-circle"></i><h4>Budowanie wizerunku</h4></li>
+                        <li><i class="fas fa-check-circle"></i><h4>Doradztwo marketingowe</h4></li>
+                    </ul>
+                </div>
+                <img src="img/slider1.jpg" height="550" width="1920"/>
+            </div>
+            <div class="item">
+                <div class="slider-text2">
+                    <h1>Wsparcie wizerunkowe</h1><br>
+                    <h4>Usuwamy negatywne opinie</h4><br>
+                    <h5>Nie czekaj! <br>Usuń negatywne opinie na Twój temat. <br> Pomagamy w najtrudniejszych
+                        sytuacjach.</h5>
+                </div>
+                <img src="img/slider2.jpg" height="550" width="1900"/>
+            </div>
+            <div class="item">
+                <div class="slider-text3">
+                    <h1>Nie Czekaj! <br>Wyślij zapytanie >></h1>
+                    <p>Skontaktuj się z nami. <br>
+                        Nie czekaj, zacznij działać! <br>
+                        Jesteśmy do twojej dyspozycji.</p>
+                    <div class="services-btn d-flex justify-content-center my-4"><a class="btn btn-danger" href="#">Skontaktuj
+                        się ></a></div>
+                </div>
+                <img src="img/slider3.jpg" height="550" width="1920"/>
+            </div>
 
         </div>
     </div>
@@ -160,40 +218,39 @@
     </div>
 </section>
 <footer>
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h6>Biuro</h6>
-                    <p>iWizerunek.pl
-                        PGE Narodowy Al. Poniatowskiego 1 Skrzynka Pocztowa: 149
-                        Warszawa
-                        03-901</p>
-                    <p>+48 605 413 609</p>
-                    <p><a href="">kontakt@iwizerunek.pl</a></p>
-                </div>
-                <div class="col-sm-4">
-                    <h6>Siedziba</h6>
-                    <p>iWizerunek.pl
-                        <br>
-                        Nałkowskiego 33a
-                        <br>
-                        Wołomin
-                        <br>
-                        05-200</p>
-                </div>
-                <div class="col-sm-4">
-                    <h6>Skontaktuj się z nami</h6>
-                    <form>
-                        Email/telefon<span style="color: #A01103;">*</span><br>
-                        <input type="text" name="email/phone" class="form-inline"><br>
-                        Treść wiadomości<span style="color: #A01103;">*</span><br>
-                        <input type="text" name="message" class="form-inline-2"><br>
-                        <input type="submit" value="Wyślij" class="send-btn">
-                    </form>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h6>Biuro</h6>
+                <p>iWizerunek.pl
+                    PGE Narodowy Al. Poniatowskiego 1 Skrzynka Pocztowa: 149
+                    Warszawa
+                    03-901</p>
+                <p>+48 605 413 609</p>
+                <p><a href="">kontakt@iwizerunek.pl</a></p>
             </div>
-    </section>
+            <div class="col-sm-4">
+                <h6>Siedziba</h6>
+                <p>iWizerunek.pl
+                    <br>
+                    Nałkowskiego 33a
+                    <br>
+                    Wołomin
+                    <br>
+                    05-200</p>
+            </div>
+            <div class="col-sm-4">
+                <h6>Skontaktuj się z nami</h6>
+                <form>
+                    Email/telefon<span style="color: #A01103;">*</span><br>
+                    <input type="text" name="email/phone" class="form-inline"><br>
+                    Treść wiadomości<span style="color: #A01103;">*</span><br>
+                    <input type="text" name="message" class="form-inline-2"><br>
+                    <input type="submit" value="Wyślij" class="send-btn">
+                </form>
+            </div>
+        </div>
+    </div>
     <section id="footer-copy">
         <div class="container-fluid d-flex justify-content-start">
             <p><span style="color: #666">© 2015 iWizerunek </span>Polityka prywatności</p>
