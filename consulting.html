@@ -102,9 +102,45 @@
         <img src="img/check.png" height="50" width="50"/>
         <h3>Doradztwo Marketingowe - Korzyści:</h3>
     </div>
-    <nav id="tabs">
-
-    </nav>
+    <div class="container fold justify-content-start">
+        <div class=" tabs justify-content-start">
+            <div class="tab-btn d-flex">
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#text1">+</button>
+                <h6>Wspólnie zbudujemy efektywną strategię marketingową</h6>
+            </div>
+            <div id="text1" class="collapse">
+                <p>Z nami zbudujesz strategię umożliwiającą optymalne wykorzystanie narzędzi marketingowych dostępnych
+                    obecnie na rynku. </p>
+            </div>
+        </div>
+        <div class="tabs justify-content-start">
+            <div class="tab-btn d-flex">
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#text2">+</button>
+                <h6>Udostępnimy Ci najlepszych na rynku specjalistów</h6>
+            </div>
+            <div id="text2" class="collapse">
+                <p>Zaoszczędzisz czas i pieniądze korzystając z umiejętności doświadczonych w Twojej branży
+                    specjalistów.</p>
+            </div>
+        </div>
+        <div class="tabs justify-content-start">
+            <div class="tab-btn d-flex">
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#text3">+</button>
+                <h6>Uzyskasz wiedzę jak reklamuje się konkurencja</h6>
+            </div>
+            <div id="text3" class="collapse">
+                <p>Dzięki "iAudytowi" dowiesz się jak konkurencja poszukuje klientów i jakimi metodami to robi. </p>
+            </div>
+        </div>
+        <div class="tabs justify-content-start">
+            <div class="tab-btn d-flex">
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#text4">+</button>
+                <h6>Zwiększysz efektywność</h6>
+            </div>
+            <div id="text4" class="collapse">
+                <p>Niższy koszt pozyskania klienta w wyniku efektywniejszego zarządzania Twoimi zasobami.</p>
+            </div>
+        </div>
 </section>
 <section id="services">
     <div class="container">
@@ -120,9 +156,30 @@
     </div>
 </section>
 <section id="linked-services">
-    <div class="container d-flex">
+    <div class="container linked1 d-flex">
         <img src="img/rack.png" height="90" width="90"/>
         <h3>Powiązane Usługi</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="col-inner">
+                    <h3>Outsourcing Marketingowy Specjalistów</h3>
+                    <div class="categories-btn d-flex justify-content-end my-4 mr-4"><a class="btn btn-danger"
+                                                                                   href="#">Sprawdź >> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-inner">
+                    <h3>iAudyt - Audyt Działań Marketingowych w Internecie</h3>
+                    <div class="categories-btn d-flex justify-content-end my-4 mr-4"><a class="btn btn-danger"
+                                                                                   href="#">Sprawdź >> </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
@@ -183,8 +240,8 @@
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
-<!--<script src="<?=get_template_directory_uri() ?>/js/aos.js"></script>-->
-<!--<script src="<?=get_template_directory_uri() ?>/js/parallax.min.js"></script>-->
+<script src="<?=get_template_directory_uri() ?>/js/aos.js"></script>
+<script src="<?=get_template_directory_uri() ?>/js/parallax.min.js"></script>
 <!--<script src="<?=get_template_directory_uri() ?>/js/main.js"></script>-->
 </body>
 </html>
